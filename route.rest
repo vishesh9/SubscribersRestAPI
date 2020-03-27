@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5d110e3e57956d3250c1b83e
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Karkardooma",
+    "channelName":"Kehkansha Channel",
+    "subscribedDate":"Date.now"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5d11198cbc996b3148cf9ef0
+
+###
+PATCH http://localhost:3000/subscribers/5d111e44a798d852589f6735
+Content-Type: application/json
+
+{
+    "name":"Kekda"
+}

@@ -8,8 +8,8 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name":"Karkardooma",
-    "channelName":"Kehkansha Channel",
+    "name":"LearnJQuery",
+    "channelName":"Vishaish Pandita",
     "subscribedDate":"Date.now"
 }
 
@@ -17,9 +17,9 @@ Content-Type: application/json
 DELETE http://localhost:3000/subscribers/5d11198cbc996b3148cf9ef0
 
 ###
-PATCH http://localhost:3000/subscribers/5d111e44a798d852589f6735
+PATCH http://localhost:3000/subscribers/5e8c5a10bf5d383240baed5c
 Content-Type: application/json
 
 {
-    "name":"Kekda"
+    "name":"Kryln"
 }

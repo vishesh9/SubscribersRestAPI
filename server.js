@@ -14,4 +14,4 @@ app.use(express.json())
 const subscribersRouter = require('./routes/subscribers')
 app.use('/subscribers', subscribersRouter)
 
-app.listen(3000, ()=>console.log('Server Chalu'))
+app.listen(3000, ()=>console.log('Server on fire, try a hit'))
